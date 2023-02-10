@@ -3,7 +3,6 @@
     "name": "coolersham",
     "slug": "coolersham",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -12,7 +11,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brents.coolersham"
     },
     "android": {
       "adaptiveIcon": {
